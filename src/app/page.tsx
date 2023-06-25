@@ -5,8 +5,6 @@ import Link from 'next/link';
 export default async function Home() {
   const { data } = await getBookingTypes();
 
-  console.log(data[5]);
-
   return (
     <main className="h-full bg-slate-100 p-4">
       <div className="container m-auto">
